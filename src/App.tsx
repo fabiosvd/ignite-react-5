@@ -51,7 +51,7 @@ export function App() {
     })
   }, [selectedGenreId]);
 
-  const handleClickButton = useCallback(async (id: number) => {
+  const handleClickButton = useCallback((id: number) => {
     setSelectedGenreId(id);
   }, [])
 
